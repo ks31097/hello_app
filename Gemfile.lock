@@ -130,6 +130,7 @@ GEM
     nio4r (2.5.8)
     nokogiri (1.13.6-x86_64-linux)
       racc (~> 1.4)
+    pg (1.4.1)
     public_suffix (4.0.7)
     puma (5.6.4)
       nio4r (~> 2.0)
@@ -215,22 +216,23 @@ PLATFORMS
   x86_64-linux
 
 DEPENDENCIES
-  bootsnap
-  capybara
-  debug
-  importmap-rails
-  jbuilder
-  puma (~> 5.0)
-  rails (~> 7.0.3)
-  redis (~> 4.0)
-  selenium-webdriver
-  sprockets-rails
-  sqlite3 (~> 1.4)
-  stimulus-rails
-  turbo-rails
-  tzinfo-data
-  web-console
-  webdrivers
+  bootsnap (= 1.12.0)
+  capybara (= 3.37.1)
+  debug (= 1.5.0)
+  importmap-rails (= 1.1.2)
+  jbuilder (= 2.11.5)
+  pg (= 1.4.1)
+  puma (= 5.6.4)
+  rails (= 7.0.3)
+  redis (= 4.7.1)
+  selenium-webdriver (= 4.3.0)
+  sprockets-rails (= 3.4.2)
+  sqlite3 (= 1.4.4)
+  stimulus-rails (= 1.0.4)
+  turbo-rails (= 1.1.1)
+  tzinfo-data (= 1.2022.1)
+  web-console (= 4.2.0)
+  webdrivers (= 5.0.0)
 
 RUBY VERSION
    ruby 3.0.0p0
